@@ -11,8 +11,8 @@ public class Day2 {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.amazon.in/");
-		String title = driver.getTitle();
-		System.out.println(title);
+		
+		
 	}
 	
 }
